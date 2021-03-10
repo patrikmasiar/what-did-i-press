@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/massoprod/what-did-i-press/blob/main/pages/public/keyboard.png?raw=true">
+  <img src="https://github.com/massoprod/what-did-i-press/blob/main/public/keyboard.png?raw=true" height="200" />
 </p>
 
 # What did I press?
