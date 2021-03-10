@@ -24,7 +24,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div style={{ marginTop: 50 }}>
+        <div style={{ marginTop: 30 }}>
           <Console />
         </div>
       </main>
