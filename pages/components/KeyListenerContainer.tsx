@@ -5,9 +5,9 @@ type Params = {
 };
 
 export type KeyInfo = {
-  key: string;
-  code: string;
-  keyCode: number;
+  key: string | null;
+  code: string | null;
+  keyCode: number | null;
 };
 
 type Props = {
@@ -15,7 +15,11 @@ type Props = {
 }
 
 const KeyListenerContainer: FC<Props> = ({ children }) => {
-  const [keyInfo, setKeyInfo] = useState<KeyInfo | null>(null);
+  const [keyInfo, setKeyInfo] = useState<KeyInfo | null>({
+    key: null,
+    code: null,
+    keyCode: null,
+  });
 
   useEffect(() => {
     addKeyListener();
