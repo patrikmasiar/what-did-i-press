@@ -1,10 +1,10 @@
 {
   "extends": "./tsconfig.base.json",
   "include": [
-    "src"
+    "pages",
+    "components",
   ],
   "compilerOptions": {
-    "baseUrl": "src",
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve"

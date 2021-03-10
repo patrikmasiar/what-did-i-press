@@ -15,7 +15,7 @@ type Props = {
 }
 
 const KeyListenerContainer: FC<Props> = ({ children }) => {
-  const [keyInfo, setKeyInfo] = useState<KeyInfo | null>({
+  const [keyInfo, setKeyInfo] = useState<KeyInfo>({
     key: null,
     code: null,
     keyCode: null,

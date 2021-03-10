@@ -1,4 +1,5 @@
 import { FC } from 'react';
+// @ts-ignore
 import style from './console/Console.module.scss';
 import type { KeyInfo } from './KeyListenerContainer';
 

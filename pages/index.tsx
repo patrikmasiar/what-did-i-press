@@ -1,7 +1,8 @@
+// @ts-ignore
 import styles from '../styles/Home.module.scss'
-import Console from './components/Console'
-import KeyListenerContainer from './components/KeyListenerContainer'
-import Meta from './components/Meta'
+import Console from '../components/Console'
+import KeyListenerContainer from '../components/KeyListenerContainer'
+import Meta from '../components/Meta'
 
 export default function Home() {
   return (
@@ -26,11 +27,9 @@ export default function Home() {
 
         <div style={{ marginTop: 30 }}>
           <KeyListenerContainer>
-            {params => (
-              <Console
-                info={params.keyInfo}
-              />
-            )}
+            {params => <Console
+              info={params.keyInfo}
+            />}
           </KeyListenerContainer>
         </div>
       </main>

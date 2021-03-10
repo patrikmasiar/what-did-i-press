@@ -1,6 +1,7 @@
+// @ts-ignore
 import '../styles/globals.scss'
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: any) {
   return <Component {...pageProps} />
 }
 
