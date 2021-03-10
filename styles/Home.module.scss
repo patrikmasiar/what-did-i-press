@@ -33,6 +33,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+
+  div {
+    & + div {
+      margin-top: 5px;
+    }
+  }
+
+  .github {
+    margin-top: 10px;
+
+    a {
+      font-size: 13px;
+      font-weight: 100;
+      text-decoration: underline;
+
+      &:hover {
+        font-weight: 400;
+      }
+    }
+  }
 }
 
 .footer img {

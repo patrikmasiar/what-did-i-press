@@ -37,18 +37,30 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://masso.sk"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Created by{' '}
-          <img
-            src="https://masso.sk/_next/static/images/logo_main-c93cc7869fc2c2f29b3faa446d466448.png"
-            alt="Masso dev. logo"
-            className={styles.logo}
-          />
-        </a>
+        <div>
+          <a
+            href="https://masso.sk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Created by{' '}
+            <img
+              src="https://masso.sk/_next/static/images/logo_main-c93cc7869fc2c2f29b3faa446d466448.png"
+              alt="Masso dev. logo"
+              className={styles.logo}
+            />
+          </a>
+        </div>
+
+        <div className={styles.github}>
+          <a
+            href="https://github.com/massoprod/what-did-i-press"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github project
+          </a>
+        </div>
       </footer>
     </div>
   )
