@@ -1,13 +1,13 @@
 import { FC, useState, useEffect, useCallback } from 'react';
 
-type Params = {
-  keyInfo: any;
-};
-
 export type KeyInfo = {
   key: string | null;
   code: string | null;
   keyCode: number | null;
+};
+
+type Params = {
+  keyInfo: KeyInfo;
 };
 
 type Props = {
