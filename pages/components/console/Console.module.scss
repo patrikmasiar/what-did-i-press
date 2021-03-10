@@ -44,4 +44,12 @@
   min-height: 280px;
   overflow-x: hidden;
   overflow-y: auto;
+
+  .row {
+    font-size: 14px;
+
+    & + .row {
+      margin-top: 15px;
+    }
+  }
 }

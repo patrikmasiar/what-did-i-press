@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 import Console from './components/Console'
+import KeyListenerContainer from './components/KeyListenerContainer'
 import Meta from './components/Meta'
 
 export default function Home() {
@@ -25,7 +26,13 @@ export default function Home() {
         </div>
 
         <div style={{ marginTop: 30 }}>
-          <Console />
+          <KeyListenerContainer>
+            {params => (
+              <Console
+                info={params.keyInfo}
+              />
+            )}
+          </KeyListenerContainer>
         </div>
       </main>
 

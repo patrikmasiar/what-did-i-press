@@ -1,7 +1,12 @@
 import { FC } from 'react';
 import style from './console/Console.module.scss';
+import type { KeyInfo } from './KeyListenerContainer';
 
-const Console: FC = () => (
+type Props = {
+  info: KeyInfo | null;
+}
+
+const Console: FC<Props> = ({ info }) => (
   <>
     <div className={style.menu}>
       <div className={style.close} />
@@ -9,7 +14,45 @@ const Console: FC = () => (
       <div className={style.zoom} />
     </div>
     <div className={style.wrapper}>
-      
+      {info !== null && (
+        <>
+          <div className={style.row}>
+            <div>
+              { `$ event.key `}
+            </div>
+            <span>
+              {`> Pressed key >> `}
+            </span>
+            <span>
+              {info.key}
+            </span>
+          </div>
+
+          <div className={style.row}>
+            <div>
+              { `$ event.code `}
+            </div>
+            <span>
+              {`> Code >> `}
+            </span>
+            <span>
+              {info.code}
+            </span>
+          </div>
+
+          <div className={style.row}>
+            <div>
+              { `$ event.keyCode `}
+            </div>
+            <span>
+              {`> Key code >> `}
+            </span>
+            <span>
+              {info.keyCode}
+            </span>
+          </div>
+        </>
+      )}
     </div>
   </>
 );
