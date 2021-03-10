@@ -1,0 +1,47 @@
+.menu {
+  width: 100%;
+  box-sizing: border-box;
+  height: 25px;
+  background-color: #bbb;
+  margin: 0 auto;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+
+  div {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    left: 6px;
+    display: inline-block;
+  }
+
+  .close {
+    background-color: #ff3b47;
+  }
+
+  .minimize {
+    left: 11px;
+    background-color: #ffc100;
+  }
+
+  .zoom {
+    left: 16px;
+    background-color: #00d742;
+  }
+}
+
+.wrapper {
+  background-color: #151515;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: wheat;
+  min-height: 280px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
