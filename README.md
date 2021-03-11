@@ -8,7 +8,7 @@
 > Mini web application, mainly for developers purposes, that tells you, what key on the keyboard did you press.
 
 ## Used package
-[![npm](https://img.shields.io/npm/v/ract-keyboard-key?style=plastic)](https://www.npmjs.com/package/ract-keyboard-key)
+[![npm](https://img.shields.io/npm/v/react-keyboard-key?style=plastic)](https://www.npmjs.com/package/react-keyboard-key)
 
 * [react-keyboard-key Github](https://github.com/massoprod/react-keyboard-key)
 * [react-keyboard-key NPM](https://www.npmjs.com/package/react-keyboard-key)
