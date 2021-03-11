@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import { highlightJsonSyntax } from '../utils/utils';
+// @ts-ignore
 import style from './output/Output.module.scss';
 
 type Props = {

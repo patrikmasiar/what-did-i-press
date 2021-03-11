@@ -17,7 +17,7 @@ const Meta: FC = () => (
     <>
       <meta charSet="utf-8" />
       <title>What key did I press | for developers</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.png" />
       <meta name="author" content="Patri Masiar" />
       <meta name="keywords" content="keyboard, key, what did i press, development, frontend, keycodes, key code, code, coding, javascript, react, full stack" />
       <meta name="description" content="Application for developers that tells you what key on the keyboard did you press." key="description" />
@@ -25,6 +25,9 @@ const Meta: FC = () => (
       <meta name="og:title" content="What key did I press | for developers" key="title-fb" />
       <meta name="twitter:description" content="Application for developers that tells you what key on the keyboard did you press." key="description-twitter" />
       <meta name="og:description" content="Application for developers that tells you what key on the keyboard did you press." key="description-fb" />
+      <meta property="og:image" content="/pagecover.png" key="image-fb" />
+      <meta name="twitter:image" content="/pagecover.png" key="image-twitter" />
+      <meta name="twitter:card" content="summary_large_image" />
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-NY3SNH44XP" />
       <script dangerouslySetInnerHTML={setGoogleTags()} />
     </>
