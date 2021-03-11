@@ -1,9 +1,11 @@
 import { FC, useState, useEffect, useCallback } from 'react';
+import { formatReadableEvent } from '../utils/utils';
 
 export type KeyInfo = {
   key: string | null;
   code: string | null;
   keyCode: number | null;
+  output: string | null;
 };
 
 type Params = {
@@ -19,6 +21,7 @@ const KeyListenerContainer: FC<Props> = ({ children }) => {
     key: null,
     code: null,
     keyCode: null,
+    output: null,
   });
 
   useEffect(() => {
@@ -46,6 +49,7 @@ const KeyListenerContainer: FC<Props> = ({ children }) => {
       key: e.key,
       code: e.code,
       keyCode: e.keyCode,
+      output: formatReadableEvent(e),
     });
   }, []);
 

@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.scss'
 import Console from '../components/Console'
 import KeyListenerContainer from '../components/KeyListenerContainer'
 import Meta from '../components/Meta'
+import Output from '../components/Output'
 
 export default function Home() {
   return (
@@ -27,12 +28,20 @@ export default function Home() {
 
         <div style={{ marginTop: 30 }}>
           <KeyListenerContainer>
-            {params => <Console
-              info={params.keyInfo}
-            />}
+            {params => (
+              <Console
+                info={params.keyInfo}
+              />
+            )}
           </KeyListenerContainer>
         </div>
       </main>
+
+      <KeyListenerContainer>
+        {params => (
+          <Output output={params.keyInfo.output} />
+        )}
+      </KeyListenerContainer>
 
       <footer className={styles.footer}>
         <div>
