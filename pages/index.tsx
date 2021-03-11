@@ -60,13 +60,20 @@ export default function Home() {
           </a>
         </div>
 
-        <div className={styles.github}>
+        <div className={styles.links}>
           <a
             href="https://github.com/massoprod/what-did-i-press"
             target="_blank"
             rel="noopener noreferrer"
           >
             Github project
+          </a>
+          <a
+            href="https://www.npmjs.com/package/react-keyboard-key"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            NPM package
           </a>
         </div>
       </footer>

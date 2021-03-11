@@ -41,8 +41,11 @@
     }
   }
 
-  .github {
+  .links {
     margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     a {
       font-size: 13px;
@@ -51,6 +54,10 @@
 
       &:hover {
         font-weight: 400;
+      }
+
+      & + a {
+        margin-left: 15px;
       }
     }
   }
