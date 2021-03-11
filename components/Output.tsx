@@ -4,7 +4,7 @@ import { highlightJsonSyntax } from '../utils/utils';
 import style from './output/Output.module.scss';
 
 type Props = {
-  output: string | null;
+  output: string;
 };
 
 const Output: FC<Props> = ({ output }) => {
