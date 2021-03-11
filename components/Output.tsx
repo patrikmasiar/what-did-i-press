@@ -11,7 +11,7 @@ const Output: FC<Props> = ({ output }) => {
   return (
     <div className={style.wrapper}>
       <span className={style.body}>
-        {output !== null ? (
+        {output !== "{}" ? (
           <span dangerouslySetInnerHTML={{__html: highlightJsonSyntax(output)}} />
         ) : (
           <span>

@@ -4,6 +4,7 @@ import Console from '../components/Console'
 import KeyListenerContainer from '../components/KeyListenerContainer'
 import Meta from '../components/Meta'
 import Output from '../components/Output'
+import { formatReadableEvent } from '../utils/utils'
 
 export default function Home() {
   return (
@@ -39,7 +40,7 @@ export default function Home() {
 
       <KeyListenerContainer>
         {params => (
-          <Output output={params.keyInfo.output} />
+          <Output output={formatReadableEvent(params.keyInfo.output)} />
         )}
       </KeyListenerContainer>
 

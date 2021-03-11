@@ -1,4 +1,8 @@
-export const formatReadableEvent = (e: KeyboardEvent): string => {
+export const formatReadableEvent = (e: KeyboardEvent | null): string => {
+  if (e === null) {
+    return JSON.stringify({});
+  }
+
   return JSON.stringify({KeyboardEvent: {
     altKey: e.altKey,
     bubbles: e.bubbles,

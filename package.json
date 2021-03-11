@@ -11,6 +11,7 @@
     "next": "10.0.8",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-keyboard-key": "^2.0.0",
     "sass": "^1.32.8"
   },
   "devDependencies": {
