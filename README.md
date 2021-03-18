@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/massoprod/what-did-i-press/blob/main/public/keyboard.png?raw=true" height="200" />
+  <img src="https://github.com/patrikmasiar/what-did-i-press/blob/main/public/keyboard.png?raw=true" height="200" />
 </p>
 
 # What did I press?
@@ -10,7 +10,7 @@
 ## Used package
 [![npm](https://img.shields.io/npm/v/react-keyboard-key?style=plastic)](https://www.npmjs.com/package/react-keyboard-key)
 
-* [react-keyboard-key Github](https://github.com/massoprod/react-keyboard-key)
+* [react-keyboard-key Github](https://github.com/patrikmasiar/react-keyboard-key)
 * [react-keyboard-key NPM](https://www.npmjs.com/package/react-keyboard-key)
 
 ### Used technologies

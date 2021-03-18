@@ -62,7 +62,7 @@ export default function Home() {
 
         <div className={styles.links}>
           <a
-            href="https://github.com/massoprod/what-did-i-press"
+            href="https://github.com/patrikmasiar/what-did-i-press"
             target="_blank"
             rel="noopener noreferrer"
           >
