@@ -46,17 +46,13 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <div>
+          Created by 🚀{' '}
           <a
-            href="https://masso.sk"
+            href="https://patrikmasiar.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Created by{' '}
-            <img
-              src="https://masso.sk/_next/static/images/logo_main-c93cc7869fc2c2f29b3faa446d466448.png"
-              alt="Masso dev. logo"
-              className={styles.logo}
-            />
+            Patrik Mäsiar
           </a>
         </div>
 
