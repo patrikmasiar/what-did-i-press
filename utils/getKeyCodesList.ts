@@ -774,4 +774,4 @@ const getKeyCodesList = (): KeyCodeListItem[] => {
   ];
 };
 
-export default getKeyCodesList();
+export default getKeyCodesList;
