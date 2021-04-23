@@ -1,0 +1,28 @@
+.navigation {
+  height: 55px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0 4px 14px 3px rgb(196 196 196 / 25%);
+
+  a {
+    font-size: 17px;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .active {
+    text-decoration: underline;
+    font-weight: 600;
+  }
+}
+
