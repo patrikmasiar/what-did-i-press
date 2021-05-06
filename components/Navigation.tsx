@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import Link from "next/link";
+// @ts-ignore
 import style from './navigation/Navigation.module.scss';
 
 const Navigation: FC = () => {
