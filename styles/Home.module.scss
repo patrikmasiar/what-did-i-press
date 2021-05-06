@@ -12,6 +12,15 @@
   flex: 1;
 }
 
+.tableContent {
+  padding: 5rem 0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
 .headerWrapper {
   display: flex;
   align-items: center;

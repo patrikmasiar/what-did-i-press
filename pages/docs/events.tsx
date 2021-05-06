@@ -10,7 +10,7 @@ export default function Events() {
     <div className={styles.container}>
       <Meta />
 
-      <main className={styles.main}>
+      <main className={styles.tableContent}>
         <Table />
       </main>
 
