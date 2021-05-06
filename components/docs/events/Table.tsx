@@ -1,6 +1,9 @@
+// @ts-ignore
 import React, { FC, useState } from 'react';
+// @ts-ignore
 import { useTable } from 'react-table';
 import getKeyCodesList from '../../../utils/getKeyCodesList';
+// @ts-ignore
 import diacritics from 'diacritics';
 
 import CssBaseline from '@material-ui/core/CssBaseline'
@@ -79,8 +82,10 @@ const Table: FC = () => {
     <CssBaseline />
     <MaUTable stickyHeader={true} {...getTableProps()} aria-label="sticky table" style={{width: '100%'}}>
       <TableHead>
-        {headerGroups.map(headerGroup: any => (
+        {/* @ts-ignore */}
+        {headerGroups.map(headerGroup => (
           <TableRow {...headerGroup.getHeaderGroupProps()}>
+            {/* @ts-ignore */}
             {headerGroup.headers.map(column => (
               <TableCell {...column.getHeaderProps()}>
                 {column.render('Header')}
@@ -90,10 +95,12 @@ const Table: FC = () => {
         ))}
       </TableHead>
       <TableBody>
+        {/* @ts-ignore */}
         {rows.map((row, i) => {
           prepareRow(row)
           return (
             <TableRow {...row.getRowProps()}>
+              {/* @ts-ignore */}
               {row.cells.map(cell => {
                 return (
                   <TableCell {...cell.getCellProps()}>
