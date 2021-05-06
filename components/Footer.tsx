@@ -1,4 +1,5 @@
 import { FC } from 'react';
+// @ts-ignore
 import styles from './footer/Footer.module.scss';
 
 const Footer: FC = () => (
