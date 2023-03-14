@@ -18,7 +18,3 @@
 *  [NextJs](https://nextjs.org/)
 *  [Typescript](https://www.typescriptlang.org/)
 *  [Vercel](https://vercel.com/)
-
-### Web
-
-[whatdidipress.com](https://whatdidipress.com/)
